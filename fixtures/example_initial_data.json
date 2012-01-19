@@ -4,9 +4,11 @@
         "model": "fiber.contentitem", 
         "fields": {
             "content_markup": "", 
-            "updated": "2011-06-08 07:03:13", 
+            "updated": "2012-01-19 14:30:08", 
             "name": "", 
             "created": "2011-06-05 04:47:59", 
+            "template_name": "", 
+            "used_on_pages_data": "[{\"url\": \"/\", \"title\": \"Home\"}]", 
             "protected": false, 
             "content_html": "<h2>\r\n\tA ContentItem in the &quot;main&quot; block</h2>\r\n<p>\r\n\t<em>Double-click to edit this ContentItem.</em></p>\r\n<p>\r\n\tLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n", 
             "metadata": null
@@ -17,9 +19,11 @@
         "model": "fiber.contentitem", 
         "fields": {
             "content_markup": "", 
-            "updated": "2011-06-08 07:03:52", 
+            "updated": "2012-01-19 14:30:08", 
             "name": "", 
             "created": "2011-06-05 04:48:11", 
+            "template_name": "", 
+            "used_on_pages_data": "[{\"url\": \"/\", \"title\": \"Home\"}]", 
             "protected": false, 
             "content_html": "<h2>\r\n\tA ContentItem in the &quot;aside&quot; block</h2>\r\n<p>\r\n\t<em>Double-click to edit this ContentItem.</em></p>\r\n<p>\r\n\tUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>\r\n", 
             "metadata": null
@@ -30,9 +34,11 @@
         "model": "fiber.contentitem", 
         "fields": {
             "content_markup": "", 
-            "updated": "2011-06-08 07:05:03", 
+            "updated": "2012-01-19 14:30:08", 
             "name": "address", 
             "created": "2011-06-05 04:53:32", 
+            "template_name": "", 
+            "used_on_pages_data": "[]", 
             "protected": false, 
             "content_html": "<h2>\r\n\tA ContentItem named &quot;address&quot;</h2>\r\n<p>\r\n\t<em>Double-click to edit this ContentItem.</em></p>\r\n", 
             "metadata": null
@@ -55,6 +61,7 @@
             "lft": 1, 
             "protected": false, 
             "tree_id": 1, 
+            "is_public": true, 
             "show_in_menu": true, 
             "metadata": null
         }
@@ -76,6 +83,7 @@
             "lft": 2, 
             "protected": false, 
             "tree_id": 1, 
+            "is_public": true, 
             "show_in_menu": true, 
             "metadata": null
         }
@@ -97,6 +105,7 @@
             "lft": 4, 
             "protected": false, 
             "tree_id": 1, 
+            "is_public": true, 
             "show_in_menu": true, 
             "metadata": null
         }
@@ -118,6 +127,7 @@
             "lft": 5, 
             "protected": false, 
             "tree_id": 1, 
+            "is_public": true, 
             "show_in_menu": true, 
             "metadata": null
         }
@@ -139,6 +149,7 @@
             "lft": 7, 
             "protected": false, 
             "tree_id": 1, 
+            "is_public": true, 
             "show_in_menu": true, 
             "metadata": null
         }
@@ -160,6 +171,7 @@
             "lft": 10, 
             "protected": false, 
             "tree_id": 1, 
+            "is_public": true, 
             "show_in_menu": true, 
             "metadata": null
         }
@@ -181,6 +193,7 @@
             "lft": 11, 
             "protected": false, 
             "tree_id": 1, 
+            "is_public": true, 
             "show_in_menu": true, 
             "metadata": null
         }
@@ -202,6 +215,7 @@
             "lft": 12, 
             "protected": false, 
             "tree_id": 1, 
+            "is_public": true, 
             "show_in_menu": true, 
             "metadata": null
         }
@@ -223,6 +237,7 @@
             "lft": 14, 
             "protected": false, 
             "tree_id": 1, 
+            "is_public": true, 
             "show_in_menu": true, 
             "metadata": null
         }
@@ -244,6 +259,7 @@
             "lft": 15, 
             "protected": false, 
             "tree_id": 1, 
+            "is_public": true, 
             "show_in_menu": true, 
             "metadata": null
         }
@@ -265,6 +281,7 @@
             "lft": 17, 
             "protected": false, 
             "tree_id": 1, 
+            "is_public": true, 
             "show_in_menu": true, 
             "metadata": null
         }
@@ -286,6 +303,7 @@
             "lft": 21, 
             "protected": false, 
             "tree_id": 1, 
+            "is_public": true, 
             "show_in_menu": true, 
             "metadata": null
         }
@@ -307,6 +325,7 @@
             "lft": 22, 
             "protected": false, 
             "tree_id": 1, 
+            "is_public": true, 
             "show_in_menu": true, 
             "metadata": null
         }
@@ -328,6 +347,7 @@
             "lft": 25, 
             "protected": false, 
             "tree_id": 1, 
+            "is_public": true, 
             "show_in_menu": true, 
             "metadata": null
         }
@@ -349,6 +369,7 @@
             "lft": 26, 
             "protected": false, 
             "tree_id": 1, 
+            "is_public": true, 
             "show_in_menu": true, 
             "metadata": null
         }
@@ -370,6 +391,7 @@
             "lft": 30, 
             "protected": false, 
             "tree_id": 1, 
+            "is_public": true, 
             "show_in_menu": true, 
             "metadata": null
         }
@@ -391,6 +413,7 @@
             "lft": 31, 
             "protected": false, 
             "tree_id": 1, 
+            "is_public": true, 
             "show_in_menu": true, 
             "metadata": null
         }
@@ -412,6 +435,7 @@
             "lft": 33, 
             "protected": false, 
             "tree_id": 1, 
+            "is_public": true, 
             "show_in_menu": true, 
             "metadata": null
         }
@@ -433,6 +457,7 @@
             "lft": 1, 
             "protected": false, 
             "tree_id": 2, 
+            "is_public": true, 
             "show_in_menu": true, 
             "metadata": null
         }
@@ -454,6 +479,7 @@
             "lft": 2, 
             "protected": false, 
             "tree_id": 2, 
+            "is_public": true, 
             "show_in_menu": true, 
             "metadata": null
         }
@@ -475,6 +501,7 @@
             "lft": 4, 
             "protected": false, 
             "tree_id": 2, 
+            "is_public": true, 
             "show_in_menu": true, 
             "metadata": null
         }
