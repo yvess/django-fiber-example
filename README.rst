@@ -19,6 +19,8 @@ Optional: you probably want to install this into a clean `virtualenv <http://pyp
     $ source env/bin/activate
 
 
+Then, proceed with the installation:
+
 ::
 
     $ pip install -r requirements.txt
