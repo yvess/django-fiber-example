@@ -66,11 +66,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # Example: "http://media.lawrence.com/static/"
 STATIC_URL = '/static/'
 
-# URL prefix for admin static files -- CSS, JavaScript and images.
-# Make sure to use a trailing slash.
-# Examples: "http://foo.com/static/admin/", "/static/admin/".
-ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
-
 # Additional locations of static files
 STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
@@ -109,7 +104,6 @@ TEMPLATE_DIRS = (
 
 TEMPLATE_CONTEXT_PROCESSORS = DEFAULT_SETTINGS.TEMPLATE_CONTEXT_PROCESSORS + (
     'django.core.context_processors.request',
-    'fiber.context_processors.page_info',
 )
 
 INSTALLED_APPS = (
@@ -120,12 +114,26 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.admin',
-    'piston',
     'mptt',
     'compressor',
     'pages',
     'fiber',
 )
+
+FIBER_METADATA_PAGE_SCHEMA = {
+    'title': {
+        'widget': 'select',
+        'values': ['option1', 'option2', 'option3',],
+    },
+    'bgcolor': {
+        'widget': 'combobox',
+        'values': ['#ffffff', '#fff000', '#ff00cc'],
+        'prefill_from_db': True,
+    },
+    'description': {
+        'widget': 'textarea',
+    },
+}
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
